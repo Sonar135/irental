@@ -176,3 +176,123 @@
     justify-content: center;
     align-items: center;
 }
+
+
+.sec3{
+    height:300px;
+}
+
+
+.sec3 .cent{
+    display:flex;
+}
+
+
+.why, .fluid_data{
+    width:600px;
+    height:100%;
+}
+
+.why{
+    padding: 0 48px 0 12px;
+}
+
+.sec3 h1{
+    text-align: left;
+}
+
+.why_choose{
+    text-align: left;
+    height:auto;
+    padding: 2px 10px 2px 0;
+    line-height:28px;
+    font-weight:100;
+    font-size:18px;
+    margin:45px 0;
+}
+
+
+.data_box{
+    float: right;
+    width:530px;
+    height:250px;
+    margin:20px 0;
+}
+
+.data{
+    width:100%;
+    height:35px;
+    margin:68px 0;
+}
+
+.data h4{
+    text-align: left;
+    font-weight:600;
+}
+
+.data_1{
+    margin:0;
+}
+
+.fluid_cont{
+    width: 100%;
+    height:8px;
+    margin:8px 0;
+    background: #e5e5e5;
+}
+
+
+.fluid{
+    width:70%;
+    height:100%;
+    background: #000;
+}
+
+
+.sec4{
+    height:500px;
+}
+
+.sec4 .cent{
+    display:flex;
+    align-items: center;
+}
+
+
+.team_card{
+    width:290px;
+    height:350px;
+    margin:0 60px;
+    box-shadow: var(--shadow);
+    padding-top:1px;
+}
+
+
+.team_card h4{
+    font-weight:500;
+    font-size:18px;
+    margin:16px 0;
+}
+
+.hero{
+    padding-top:1px;
+}
+
+.team_card p{
+    text-align: center;
+    line-height: 24px;
+    width:260px;
+    display:block;
+    margin:20px auto;
+    font-weight:100;
+    font-size:14px;
+}
+
+
+.prof{
+    width:70px;
+    height:70px;
+    border-radius: 100px;
+    margin:60px auto;
+    box-shadow: var(--shadow);
+}

@@ -1,0 +1,130 @@
+.sec1{
+    height:300px;
+}
+
+.sec1 .cent{
+    display:flex;
+}
+
+.what, .mis{
+    width:600px;
+    height:100%;
+}
+
+.what h1{
+    text-align: left;
+    font-size:26px;
+}
+
+.what{
+    padding:16px;
+}
+
+.what p{
+    text-align: left;
+    width:100%;
+    line-height: 24px;
+    font-weight: 100;
+    font-size:14px;
+    margin:24px 0;
+}
+
+.what ul{
+    display:block;
+    float:right;
+    width: 500px;
+    height:100px;
+}
+
+.what ul li{
+    list-style-type: disc;
+    font-weight:100;
+    font-size:14px;
+    margin:20px 0;
+    text-align: left;
+}
+
+
+.sec2{
+    height:250px;
+}
+
+.sec2 .cent{
+    display:flex;
+    align-items: center;
+}
+
+
+.skill_card{
+    width:300px;
+    height:90px;
+    margin:10px 25px;
+}
+
+.skill_card h1{
+    color:var(--accent_hover);
+    font-size:33px;
+}
+
+.skill_card h4{
+    text-align: center;
+    margin:16px;
+    font-weight:600;
+}
+
+
+.sec3{
+    height:500px;
+}
+
+.sec3 .cent{
+    display:flex;   
+}
+
+
+.our_goal, .goal_img{
+    width:600px;
+    height:100%;
+}
+
+.our_goal{
+    padding:80px 50px 0 8px;
+}
+
+.our_goal h1{
+    text-align: left;
+    font-weight:26px;
+    margin:36px 0;
+}
+
+
+.our_goal p{
+    text-align: left;
+    line-height: 24px;
+    width:480px;
+    margin:36px 0;
+    font-weight:100;
+    font-size:14px;
+}
+
+
+.goal_img{
+    padding-top:1px;
+}
+
+.img_box{
+    width:580px;
+    height:400px;
+    margin:70px auto;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    position:relative;
+    position:relative;
+    background: url('../images/steptodown.com949802.jpg') right;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: 50% 30%;
+}
+
+

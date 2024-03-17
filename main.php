@@ -100,6 +100,80 @@ include "header.php";
                 </div>
             </div>
         </div>
+
+
+        <div class="container sec3">
+            <div class="cent">
+                <div class="why">
+                    <h1>WHY CHOOSE US?</h1>
+
+                    <div class="why_choose">
+                    Get the lowest rental car deal and take advantage of our special deals while getting fast & quality service. Get started today!
+                    </div>
+
+                    <button>Book Now</button>
+                </div>
+
+                <div class="fluid_data">
+                    <div class="data_box">
+                        <div class="data data_1">
+                            <h4>SAVE ON YOUR NEXT TRIP</h4>
+
+                            <div class="fluid_cont">
+                                <div class="fluid"></div>
+                            </div>
+                        </div>
+
+                        <div class="data">
+                            <h4>SAVE ON YOUR NEXT TRIP</h4>
+
+                            <div class="fluid_cont">
+                                <div class="fluid"></div>
+                            </div>
+                        </div>
+
+                        
+                        <div class="data">
+                            <h4>SAVE ON YOUR NEXT TRIP</h4>
+
+                            <div class="fluid_cont">
+                                <div class="fluid"></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+
+        <div class="container sec4">
+            <h1>MEET THE TEAM</h1>
+            <div class="cent">
+                <div class="team_card">
+                    <h4>EFIDI VICTOR</h4>
+                    <p>Dignissim per dis dignissim mi nibh a parturient habitasse suspendisse ut a feugiat morbi neque tortor.Tellus volutpat scelerisque tempor.</p>
+                    <div class="prof">
+
+                    </div>
+                </div>
+
+                <div class="team_card">
+                       <h4>EFIDI VICTOR</h4>
+                    <p>Dignissim per dis dignissim mi nibh a parturient habitasse suspendisse ut a feugiat morbi neque tortor.Tellus volutpat scelerisque tempor.</p>
+                    <div class="prof">
+                        
+                    </div>
+                    </div>
+
+                    <div class="team_card">
+                    <h4>EFIDI VICTOR</h4>
+                    <p>Dignissim per dis dignissim mi nibh a parturient habitasse suspendisse ut a feugiat morbi neque tortor.Tellus volutpat scelerisque tempor.</p>
+                    <div class="prof">
+                        
+                    </div>
+                    </div>
+            </div>
+        </div>
     </div>
 </body>
 </html>

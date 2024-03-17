@@ -68,11 +68,11 @@
           <div class="menu">
             <ul>
               <li>
-              <a href=""> Home</a> 
+              <a href="main.php"> Home</a> 
               </li>
 
               <li>
-               <a href="">About Us</a> 
+               <a href="about.php">About Us</a> 
               </li>
 
               <li>
