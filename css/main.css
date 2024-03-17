@@ -1,0 +1,178 @@
+.sec1{
+    height:500px;
+    position:relative;
+}
+
+.cent .carousel{
+    width:100%;
+    height:100%;
+}
+
+.carousel h1{
+    font-size:45px;
+}
+
+.display{
+    width:100%;
+    height:446px;
+    display:flex;
+}
+
+.text, .img{
+    width:600px;
+    height:100%;
+    padding-top:1px;
+}
+
+
+.text_box{
+    width:200px;
+    height:260px;
+    margin:80px auto;
+}
+
+
+.text_box h1{
+    font-size:35px;
+    font-weight:700;
+    color:var(--accent);
+}
+  
+ .text_box .space{
+    margin:16px 0;
+    color:black;
+}
+
+.text_box button{
+    margin: 24px auto;
+    /* border-radius: 0; */
+}
+
+
+.car_img{
+    width:550px;
+    height:260px;
+    margin:80px auto;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.car_img img{
+    width:550px;
+    height:auto;
+}
+
+.left_btn, .right_btn{
+    position:absolute;
+    width: 70px;
+    height:70px;
+    background: var(--accent);
+    top:180px;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.left_btn{
+    left:30px;
+}
+
+.right_btn{
+    right:30px;
+}
+
+.left_btn i, .right_btn i{
+    color:white;
+    font-size: 30px;
+}
+
+
+
+.sec2{
+    height:580px;
+}
+
+.sec2 .cent{
+    height:430px;
+    display:flex;
+}
+
+
+.sec2 h4{
+    margin:20px 0;
+    font-size:18px;
+}
+
+
+.text_container{
+    width:350px;
+    height:100%;
+    padding:0 20px;
+}
+
+.pic_cont{
+    width:500px;
+    height:100%;
+}
+
+.pic_cont img{
+    width: 500px;
+    height:auto;
+}
+
+.service_card{
+    width:100%;
+    height:130px;
+    margin:70px 0;
+}
+
+.card_ico{
+    width:100%;
+    height:40px;
+    margin:18px 0;
+}
+
+.service{
+    font-weight:600;
+    height:20px;
+    width:100%;
+    margin: 18px 0;
+    text-align: right;
+}
+
+.ser_desc{
+    width:100%;
+    height:40px;
+    margin:28px 0;
+    font-weight: 100;
+    text-align: right;
+    line-height: 28px;
+}
+
+.card_ico i{
+    font-size:40px;
+    text-align: right;
+    color:var(--accent);
+    width:100%;
+}
+
+.right_side .ser_desc{
+    text-align: left;
+}
+
+.right_side .card_ico i{
+    text-align: left;
+    width: 100%;
+}
+
+.right_side .service{
+    text-align: left;
+}
+
+
+.pic_cont{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+}
