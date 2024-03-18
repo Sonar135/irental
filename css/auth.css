@@ -42,3 +42,18 @@
     border-bottom: 1px solid rgba(0, 0, 0, 0.468);
     padding:12px 0;
 }
+
+
+.pic_cont{
+    width:500px;
+    height:400px;
+    margin:80px auto;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.pic_cont img{
+    width:500px;
+    height:auto;
+}

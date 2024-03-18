@@ -17,7 +17,9 @@
   <div class="container sec1">
         <div class="cent">
             <div class="pic">
-
+                <div class="pic_cont">
+                    <img src="images\download-removebg-preview.png" alt="">
+                </div>
             </div>
 
             <div class="auth">
