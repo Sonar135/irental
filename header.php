@@ -80,7 +80,7 @@
               </li>
 
               <li>
-                <a href="">     Blog</a>
+                <a href="blog.php">     Blog</a>
               </li>
 
               <li>
@@ -88,7 +88,7 @@
               </li>
 
               <li>
-            <a href="">   Register/Login</a>
+            <a href="auth.php">   Register/Login</a>
               </li>
             </ul>
           </div>

@@ -1,0 +1,49 @@
+.sec1{
+    height:800px;
+}
+
+
+.sec1 .cent{
+    display:flex;
+    flex-wrap: wrap;
+}
+
+
+.sec1 .card{
+    width:350px;
+    height:341px;
+    margin:18px 25px;
+}
+
+.image{
+    height:230px;
+    position:relative;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+}
+
+.image img{
+    width:auto;
+    height:100%;
+    width:100%;
+    object-fit:cover;
+}
+
+.card h1{
+    font-size:20px;
+    text-align: left;
+    margin:20px 0;
+}
+
+.card h4{
+    display:inline-block;
+    margin:0 10px;
+    text-align: left;
+}
+
+.card i{
+    color:var(--accent);
+    font-size:14px;
+}
