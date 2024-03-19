@@ -96,9 +96,17 @@
              <a href="">  Contact</a>
               </li>
 
-              <li>
-            <a href="auth.php">   Register/Login</a>
-              </li>
+            <?php
+             if(isset($_SESSION["id"])){
+            echo ' <li class=""> <a href="logout.php"> Logout</a></li>';
+            }
+
+            else{
+              echo ' <li class=""><a href="auth.php">   Register/Login</a></li>';
+            }
+            ?>
+
+            
             </ul>
           </div>
         </div>
