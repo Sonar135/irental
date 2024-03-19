@@ -2,6 +2,10 @@
     height:950px;
 }
 
+.car_sec{
+    height:1060px;
+}
+
 
 .sec1 .cent{
     display:flex;
@@ -82,4 +86,65 @@
 .car_img img{
     width:500px;
     height:auto;
+}
+
+.sec2{
+    height:500px;
+}
+
+
+.sec2 .cent{
+    display:flex;
+    flex-wrap: wrap;
+}
+
+
+
+.taxis{
+    width:100%;
+    margin:24px 0;
+    height:460px;
+    display:flex;
+}
+
+
+.taxis .card{
+    width:320px;
+    height:390px;
+    margin: 18px 60px;
+}
+
+.car{
+    width:100%;
+    height:170px;
+    display:flex;
+    justify-content: center;
+    align-items: baseline;
+}
+
+
+.car img{
+    width:auto;
+    height:100%;
+    width:100%;
+    object-fit:cover;
+}
+
+
+
+.data{
+    margin:14px 0;
+    width:100%;
+}
+
+.data h4{
+    text-align: left;
+    text-transform: capitalize;
+    font-weight:500;
+    font-size:16px;
+}
+
+
+.card button{
+    padding:13px 25px;
 }

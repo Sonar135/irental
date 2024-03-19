@@ -1,5 +1,14 @@
 
-
+<?php
+  ob_start();
+  session_start();
+  include 'connect.php';
+  if(isset($_SESSION["id"])){
+    $email=$_SESSION['email'];
+    $user_phone=$_SESSION['phone'];
+    $user_name=$_SESSION['name'];
+  }
+?>
 
 
 <!DOCTYPE html>
