@@ -1,0 +1,85 @@
+.sec1{
+    height:950px;
+}
+
+
+.sec1 .cent{
+    display:flex;
+}
+
+
+.img, .other{
+    width:600px;
+    height:100%;
+}
+
+
+.other{
+    padding-top:20px;
+    padding-left:16px;
+}
+
+.other h1{
+    text-align: left;
+}
+
+.other h4{
+    text-align:left;
+    font-weight:300;
+    margin:20px 0;
+    font-size:16px;
+}
+
+.star_array{
+    margin:20px 0;
+    width:100px;
+    height:16px;
+    display:flex;
+    justify-content: space-between;
+}
+
+.star_array i{
+    color:var(--accent);
+    font-size: 16px;
+}
+
+
+.calendar_box{
+    width:550px;
+    margin:20px 0;
+    height: 500px;
+}
+
+.other input{
+    width:550px;
+    height:35px;
+    border-radius: 10px;
+    border: 1px solid rgba(0, 0, 0, 0.416);
+    margin:5px 0;
+}
+
+
+.other button{
+    margin:16px 0;
+    padding:13px 25px;
+}
+
+#loc{
+    margin-top:40px;
+}
+
+
+.car_img{
+    width:500px;
+    height:500px;
+    margin:200px auto;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.car_img img{
+    width:500px;
+    height:auto;
+}

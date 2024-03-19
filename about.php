@@ -19,7 +19,9 @@
     <div class="hero">
         <div class="img_container">
             <div class="overlay">
-
+                <div class="cent">
+                    <h1>About us</h1>
+                </div>
             </div>
         </div>
 

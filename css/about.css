@@ -16,6 +16,17 @@
     font-size:26px;
 }
 
+.img_container{
+    width:100%;
+    height:280px;
+    position:relative;
+    background: url('../images/steptodown.com131209.jpg') right;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: 60% 50%;
+}
+
+
 .what{
     padding:16px;
 }
