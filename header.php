@@ -76,7 +76,7 @@
               </li>
 
               <li>
-               <a href=""> Vehicles</a>
+               <a href="vehicles.php"> Vehicles</a>
               </li>
 
               <li>

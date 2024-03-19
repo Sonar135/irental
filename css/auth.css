@@ -9,6 +9,7 @@
 
 .sec1 .cent{
     display:flex;
+    animation: fade_in .8s;
 }
 
 
@@ -30,7 +31,7 @@
     width:100%;
     justify-content: space-between;
     height:80px;
-    margin:56px 0;
+    margin:40px 0;
 }
 
 .auth button{
@@ -57,3 +58,33 @@
     width:500px;
     height:auto;
 }
+
+
+.sec1 .signup{
+    display:none;
+}
+
+.login .ne{
+    justify-content: center;
+}
+
+.login input{
+    width:400px;
+}
+
+.has_acc{
+    margin:16px 0;
+    font-weight:500;
+    cursor:pointer;
+}
+
+.no_acc{
+    margin:40px 0;
+    font-weight:500;
+    cursor:pointer;
+}
+
+.sec1 .login{
+    height: 500px;
+}
+
