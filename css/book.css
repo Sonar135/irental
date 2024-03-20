@@ -60,6 +60,7 @@
     border-radius: 10px;
     border: 1px solid rgba(0, 0, 0, 0.416);
     margin:5px 0;
+    padding:5px 10px;
 }
 
 
@@ -147,4 +148,17 @@
 
 .card button{
     padding:13px 25px;
+}
+
+
+.dates{
+    display:flex;
+    align-items: center;
+    justify-content: space-between;
+    padding:0 35px 0 8px;
+}
+
+.dates input{
+    width:200px;
+    padding:5px 10px;
 }
