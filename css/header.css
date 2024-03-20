@@ -282,10 +282,7 @@ h3{
     justify-content: space-between;
   }
 
-  .logo{
-    width:300px;
-    height:100%;
-  }
+
 
   .upper_cent{
     width:1100px;
@@ -380,7 +377,7 @@ h3{
 
 
 .menu{
-    width:580px;
+    width:610px;
     height:100%;
 }
 
@@ -437,4 +434,31 @@ a{
 
 .navigation h4{
   font-weight:500;
+}
+
+.logo{
+  width:400px;
+  height:100%;
+  display:flex;
+}
+
+
+
+.logo_img{
+  width: 150px;
+  height:100%;
+  display:flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.logo_img img{
+  width:150px;
+  height:auto;
+}
+
+.logo h1{
+  text-align: left;
+  color:white;
+  margin:30px 0;
 }

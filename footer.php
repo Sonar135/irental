@@ -54,7 +54,7 @@
                 </div>
                 <div class="fot">
                     <div class="fot_card">
-                        <h3>CHOWDOWN THEME</h3>
+                        <h3>IRENTAL THEME</h3>
 
                         <p>Tincidunt elit magnis nulla facilisis. Dolor sagittis maecenas. Sapien nunc amet ultrices, dolores sit ipsum velit purus aliquet, massa fringilla leo orci.</p>
                     </div>

@@ -36,9 +36,9 @@
         $date=$_POST["date"];
 
         if($pick_location=="" or $drop_location=="" or $time=="" or $date== ""){
-            echo '  <div class="message" id="message">
-           please fill all fields
-        </div>';
+            if($query){
+                header("location: account.php?booked");
+             }
         }
 
         else{
@@ -51,6 +51,61 @@
              </div>';
             }
         }
+    }
+?>
+
+
+
+
+
+
+<?php
+    $cargo="";
+    $get_cargo=mysqli_query($conn, "SELECT * from cargo where id!='$id' order by rand() limit 3");
+    while($cargo_row=mysqli_fetch_array($get_cargo)){
+        $car_names= $cargo_row["car_name"];
+        $car_ids=$cargo_row["id"];
+        $plate_nos=$cargo_row["plate_no"];
+        $prices=$cargo_row["price"];
+        $images=$cargo_row["image"];
+        $driver_nos=$cargo_row["driver_no"];
+
+
+        $cargo.= '
+        <div class="card">
+        <div class="car">
+            <img src="./cargo_images/'.$images.'" alt="">
+        </div>
+
+        <div class="star_array">
+        <i class="fa-solid fa-star"></i>
+        <i class="fa-solid fa-star"></i>
+        <i class="fa-solid fa-star"></i>
+        <i class="fa-solid fa-star"></i>
+        <i class="fa-regular fa-star"></i>
+        </div>
+
+        <div class="data">
+            <h4>'.$car_names.'</h4>
+        </div>
+
+        <div class="data">
+            <h4>Plate no: '.$plate_nos.'</h4>
+        </div>
+
+        <div class="data">
+            <h4>Price: ₦'.$prices.'/day</h4>
+        </div>
+
+
+        <div class="data">
+             <h4>phone number: '.$driver_nos.'</h4>
+        </div>
+      
+
+       <a href="book_cargo.php?id='.$car_ids.'" class=""> <button>ORDER</button></a>
+    </div>
+        ';
     }
 ?>
 
@@ -130,101 +185,7 @@
             <h1>MORE VEHICLES</h1>
             <div class="cent">
             <div class="taxis">
-                    <div class="card">
-                        <div class="car">
-                            <img src="images\lrjol.png" alt="">
-                        </div>
-
-                        <div class="star_array">
-                        <i class="fa-solid fa-star"></i>
-                        <i class="fa-solid fa-star"></i>
-                        <i class="fa-solid fa-star"></i>
-                        <i class="fa-solid fa-star"></i>
-                        <i class="fa-regular fa-star"></i>
-                        </div>
-
-                        <div class="data">
-                            <h4>Toyota camry</h4>
-                        </div>
-
-                        <div class="data">
-                            <h4>Plate no: KRT110PR</h4>
-                        </div>
-
-                        <div class="data">
-                            <h4>Price: ₦1000/hr</h4>
-                        </div>
-
-                        <div class="data">
-                            <h4>phone number 08091934582</h4>
-                        </div>
-
-                        <button>ORDER</button>
-                    </div>
-
-                    <div class="card">
-                    <div class="car">
-                            <img src="images\lrjol.png" alt="">
-                        </div>
-
-                        <div class="star_array">
-                        <i class="fa-solid fa-star"></i>
-                        <i class="fa-solid fa-star"></i>
-                        <i class="fa-solid fa-star"></i>
-                        <i class="fa-solid fa-star"></i>
-                        <i class="fa-regular fa-star"></i>
-                        </div>
-
-                        <div class="data">
-                            <h4>Toyota camry</h4>
-                        </div>
-
-                        <div class="data">
-                            <h4>Plate no: KRT110PR</h4>
-                        </div>
-
-                        <div class="data">
-                            <h4>Price: ₦1000/hr</h4>
-                        </div>
-
-                        <div class="data">
-                            <h4>phone number 08091934582</h4>
-                        </div>
-
-                        <button>ORDER</button>
-                        </div>
-
-                        <div class="card">
-                        <div class="car">
-                            <img src="images\lrjol.png" alt="">
-                        </div>
-
-                        <div class="star_array">
-                        <i class="fa-solid fa-star"></i>
-                        <i class="fa-solid fa-star"></i>
-                        <i class="fa-solid fa-star"></i>
-                        <i class="fa-solid fa-star"></i>
-                        <i class="fa-regular fa-star"></i>
-                        </div>
-
-                        <div class="data">
-                            <h4>Toyota camry</h4>
-                        </div>
-
-                        <div class="data">
-                            <h4>Plate no: KRT110PR</h4>
-                        </div>
-
-                        <div class="data">
-                            <h4>Price: ₦1000/hr</h4>
-                        </div>
-
-                        <div class="data">
-                            <h4>phone number 08091934582</h4>
-                        </div>
-
-                        <button>ORDER</button>
-                        </div>
+                  <?php echo $cargo?>
                 </div>
             </div>
         </div>

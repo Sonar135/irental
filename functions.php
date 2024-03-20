@@ -188,6 +188,10 @@
      
    
          
+            if(isset($_GET["vehicle"])){
+                header("location: vehicles.php");
+                exit();
+            }
 
             header("location: main.php");
             exit();

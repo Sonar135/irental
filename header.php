@@ -71,7 +71,10 @@
       <div class="lower_nav">
         <div class="lower_cent">
           <div class="logo">
-
+            <div class="logo_img">
+              <img src="images\logo_cardoor-removebg-preview.png" alt="">
+            </div>
+            <h1>IRENTAL</h1>
           </div>
 
           <div class="menu">
@@ -99,6 +102,7 @@
             <?php
              if(isset($_SESSION["id"])){
             echo ' <li class=""> <a href="logout.php"> Logout</a></li>';
+            echo ' <li class=""> <a href="account.php"> Account</a></li>';
             }
 
             else{

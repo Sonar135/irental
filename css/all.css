@@ -1,0 +1,64 @@
+.sec1{
+    height:auto;
+    min-height:500px;
+}
+
+.sec1 .cent{
+    height:auto;
+    min-height:500px;
+    display:flex;
+    flex-wrap: wrap;
+}
+
+
+ .card{
+    width:320px;
+    height:390px;
+    margin: 90px 40px;
+}
+
+.car{
+    width:100%;
+    height:170px;
+    display:flex;
+    justify-content: center;
+    align-items: baseline;
+}
+
+
+.car img{
+    width:auto;
+    height:100%;
+    width:100%;
+    object-fit:cover;
+}
+
+.star_array{
+    margin:14px 0;
+    width:100px;
+    height:14px;
+    display:flex;
+    justify-content: space-between;
+}
+
+.star_array i{
+    color:var(--accent);
+    font-size: 14px;
+}
+
+.data{
+    margin:14px 0;
+    width:100%;
+}
+
+.data h4{
+    text-align: left;
+    text-transform: capitalize;
+    font-weight:500;
+    font-size:16px;
+}
+
+
+.card button{
+    padding:13px 25px;
+}

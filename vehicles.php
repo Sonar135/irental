@@ -1,5 +1,11 @@
 <?php
     include "header.php";
+
+
+
+    if(!isset($_SESSION["id"])){
+       header("location: auth.php?vehicle");
+      }else
 ?>
 
 <?php
@@ -189,7 +195,7 @@
                 </div>
 
                 <div class="see">
-                  <a href=""><h4>See All</h4><i class="fa-solid fa-angle-right"></i></a>  
+                  <a href="all.php?taxi"><h4>See All</h4><i class="fa-solid fa-angle-right"></i></a>  
                 </div>
 
                 <div class="taxis">
@@ -210,7 +216,7 @@
                 </div>
 
                 <div class="see">
-                  <a href=""><h4>See All</h4><i class="fa-solid fa-angle-right"></i></a>  
+                  <a href="all.php?rental"><h4>See All</h4><i class="fa-solid fa-angle-right"></i></a>  
                 </div>
 
                 <div class="taxis">
@@ -231,7 +237,7 @@
                 </div>
 
                 <div class="see">
-                  <a href=""><h4>See All</h4><i class="fa-solid fa-angle-right"></i></a>  
+                  <a href="all.php?cargo"><h4>See All</h4><i class="fa-solid fa-angle-right"></i></a>  
                 </div>
 
                 <div class="taxis">

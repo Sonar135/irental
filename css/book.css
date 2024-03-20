@@ -69,9 +69,17 @@
     padding:13px 25px;
 }
 
+
+#rent{
+    height:500px;
+}
+
 #loc{
     margin-top:40px;
 }
+
+
+
 
 
 .car_img{
@@ -83,6 +91,10 @@
     align-items: center;
 }
 
+
+#rent_img{
+    margin:60px auto;
+}
 
 .car_img img{
     width:500px;
