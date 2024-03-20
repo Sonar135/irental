@@ -6,7 +6,7 @@
   if(isset($_SESSION["id"])){
     $email=$_SESSION['email'];
     $user_phone=$_SESSION['phone'];
-    $user_name=$_SESSION['name'];
+    $user_name=$_SESSION['Fname'];
   }
 ?>
 
@@ -96,7 +96,7 @@
               </li>
 
               <li>
-             <a href="">  Contact</a>
+             <a href="contact.php">  Contact</a>
               </li>
 
             <?php

@@ -183,13 +183,18 @@
             $_SESSION["email"]=$uidexist["email"];
             $_SESSION["name"]=$uidexist["name"];
             $_SESSION['phone']=$uidexist['phone'];
-            $_SESSION["name"]=$uidexist["name"];
+            $_SESSION["Fname"]=$uidexist["Fname"];
           
      
    
          
             if(isset($_GET["vehicle"])){
                 header("location: vehicles.php");
+                exit();
+            }
+
+            if(isset($_GET["contact"])){
+                header("location: contact.php");
                 exit();
             }
 

@@ -5,7 +5,7 @@
 
     if(!isset($_SESSION["id"])){
        header("location: auth.php?vehicle");
-      }else
+      }
 ?>
 
 <?php
