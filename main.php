@@ -63,17 +63,17 @@ include "header.php";
                     <div class="service_card">
                         <div class="card_ico"><i class="fa-solid fa-key"></i></div>
 
-                        <div class="service">Pickup & Delivery</div>
+                        <div class="service">Car Rental</div>
 
-                        <div class="ser_desc">Mus accumsan venenatis hac curabitur per quis parturient vel ut a sit a socii.</div>
+                        <div class="ser_desc">Flexible vehicle options for seamless travel experiences, anytime, anywhere.</div>
                     </div>
 
                     <div class="service_card">
                              <div class="card_ico"><i class="fa-solid fa-key"></i></div>
 
-                        <div class="service">Pickup & Delivery</div>
+                        <div class="service">Taxi Service</div>
 
-                        <div class="ser_desc">Mus accumsan venenatis hac curabitur per quis parturient vel ut a sit a socii.</div>
+                        <div class="ser_desc">Efficient freight solutions for secure and timely delivery of goods.</div>
                         </div>
                 </div>
 
@@ -85,17 +85,17 @@ include "header.php";
                 <div class="service_card">
                         <div class="card_ico"><i class="fa-solid fa-key"></i></div>
 
-                        <div class="service">Pickup & Delivery</div>
+                        <div class="service">Airport Transfers</div>
 
-                        <div class="ser_desc">Mus accumsan venenatis hac curabitur per quis parturient vel ut a sit a socii.</div>
+                        <div class="ser_desc">: Effortless pickups and drop-offs, connecting you seamlessly to your destination..</div>
                     </div>
 
                     <div class="service_card">
                              <div class="card_ico"><i class="fa-solid fa-key"></i></div>
 
-                        <div class="service">Pickup & Delivery</div>
+                        <div class="service">Special Events</div>
 
-                        <div class="ser_desc">Mus accumsan venenatis hac curabitur per quis parturient vel ut a sit a socii.</div>
+                        <div class="ser_desc">Dedicated transport services for weddings, parties, and special occasions.</div>
                         </div>
                 </div>
             </div>
@@ -175,5 +175,9 @@ include "header.php";
             </div>
         </div>
     </div>
+
+    <?php
+        include "footer.php";
+    ?>
 </body>
 </html>

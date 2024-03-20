@@ -153,11 +153,18 @@ class Calendar {
          
         $preYear = $this->currentMonth==1?intval($this->currentYear)-1:$this->currentYear;
          
+        $id="";
+        if(isset($_GET["id"])){
+            $id = $_GET["id"];
+        }
         return
+
+     
+
             '<div class="header">'.
-                '<a class="prev" href="'.$this->naviHref.'?month='.sprintf('%02d',$preMonth).'&year='.$preYear.'">Prev</a>'.
+                '<a class="prev" href="'.$this->naviHref.'?month='.sprintf('%02d',$preMonth).'&year='.$preYear.'&id='.$id.'">Prev</a>'.
                     '<span class="title">'.date('Y M',strtotime($this->currentYear.'-'.$this->currentMonth.'-1')).'</span>'.
-                '<a class="next" href="'.$this->naviHref.'?month='.sprintf("%02d", $nextMonth).'&year='.$nextYear.'">Next</a>'.
+                '<a class="next" href="'.$this->naviHref.'?month='.sprintf("%02d", $nextMonth).'&year='.$nextYear.'&id='.$id.'">Next</a>'.
             '</div>';
     }
          

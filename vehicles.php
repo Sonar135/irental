@@ -166,7 +166,15 @@
     <div class="hero">
     <div class="img_container">
             <div class="overlay">
-               
+           <div class="cent">
+           <h1>vehicles</h1>
+                    <div class="navigation">
+                        <a href="main.php">Home</a>
+                        <i class="fa-solid fa-right-long"></i>
+                        <h4>Vehicles</h4>
+                    </div>
+           </div>
+
             </div>
         </div>
 
@@ -232,5 +240,8 @@
             </div>
         </div>
     </div>
+    <?php
+        include "footer.php";
+    ?>
 </body>
 </html>
