@@ -51,7 +51,7 @@
               <i class="fa-regular fa-envelope"></i>
               </div>
 
-          vefidi135@gmail.com
+              peterdanielnonso@gmail.com
             </div>
 
           
@@ -72,9 +72,9 @@
         <div class="lower_cent">
           <div class="logo">
             <div class="logo_img">
-              <img src="images\logo_cardoor-removebg-preview.png" alt="">
+           <a href="main.php">   <img src="images\logo_cardoor-removebg-preview.png" alt=""></a>
             </div>
-            <h1>IRENTAL</h1>
+           <a href="main.php"> <h1>IRENTAL</h1></a>
           </div>
 
           <div class="menu">

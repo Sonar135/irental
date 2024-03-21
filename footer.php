@@ -47,7 +47,7 @@
 
                             <div class="the_text">
                                 <h3>EMAIL</h3>
-                                <h4>vefidi135@gmail.com</h4>
+                                <h4>peterdanielnonso@gmail.com</h4>
                             </div>
                             </div>
                         </div>

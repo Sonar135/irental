@@ -7,20 +7,33 @@
     animation: fade_in .8s;
 }
 
+.carousel_container{
+    position:relative;
+    width:1200px;
+    height:100%;
+    overflow: hidden;
+}
+
 .cent .carousel{
     width:100%;
     height:100%;
+    position:absolute;
+    display:flex;
+    left:0;
+    bottom:0;
+}
+
+.display{
+    width:1200px;
+    height:100%;
+    display:flex;
 }
 
 .carousel h1{
     font-size:45px;
 }
 
-.display{
-    width:100%;
-    height:446px;
-    display:flex;
-}
+
 
 .text, .img{
     width:600px;
@@ -76,6 +89,7 @@
     display:flex;
     justify-content: center;
     align-items: center;
+    z-index:1000;
 }
 
 .left_btn{
@@ -299,4 +313,12 @@
     border-radius: 100px;
     margin:60px auto;
     box-shadow: var(--shadow);
+    display:flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.prof i{
+    font-size:30px;
+    color:black;
 }

@@ -7,6 +7,13 @@
 ?>
 
 
+<?php
+    if(isset($_POST["submit"])){
+        echo '  <div class="message" id="message">
+        sent successfully
+    </div>';
+    }
+?>
 
 
 

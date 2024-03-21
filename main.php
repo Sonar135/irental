@@ -22,34 +22,74 @@ include "header.php";
 <body>
     <div class="hero">
         <div class="container sec1">
-            <div class="left_btn">
-            <i class="fa-solid fa-chevron-left"></i>
+            <div class="left_btn" data-carousel-button="prev">
+            <i class="fa-solid fa-chevron-left" ></i>
             </div>
 
-            <div class="right_btn">
-            <i class="fa-solid fa-angle-right"></i>
+            <div class="right_btn" data-carousel-button="next">
+            <i class="fa-solid fa-angle-right" ></i>
             </div>
             <div class="cent">
-                <div class="carousel">
-                    <h1>THE AMAZING RIDE</h1>
+            <h1>THE AMAZING RIDE</h1>
+            <div class="carousel_container">
+            <div class="carousel">
+                   
 
-                  <div class="display">
-                    <div class="text">
-                        <div class="text_box">
-                            <h1>SPEEDY</h1>
-                            <h1>TAXI</h1>
-                            <h1 class="space">₦2000/hr</h1>
-                           <a href="vehicles.php"> <button>Book Now</button></a>
-                        </div>
-                    </div>
-
-                    <div class="img">
-                        <div class="car_img">
-                            <img src="images\download.png" alt="">
-                        </div>
-                    </div>
-                  </div>
-                </div>
+                   <div class="display" data-active>
+                     <div class="text">
+                         <div class="text_box">
+                             <h1>SPEEDY</h1>
+                             <h1>TAXI</h1>
+                             <h1 class="space">₦2000/hr</h1>
+                            <a href="vehicles.php"> <button>Book Now</button></a>
+                         </div>
+                     </div>
+ 
+                     <div class="img">
+                         <div class="car_img">
+                             <img src="images\download.png" alt="">
+                         </div>
+                     </div>
+                   </div>
+ 
+                   <div class="display" data-active>
+                     <div class="text">
+                         <div class="text_box">
+                             <h1>EFFICIENT</h1>
+                             <h1>LOGISTICS</h1>
+                             <h1 class="space">₦1500/hr</h1>
+                            <a href="vehicles.php"> <button>Book Now</button></a>
+                         </div>
+                     </div>
+ 
+                     <div class="img">
+                         <div class="car_img">
+                             <img src="images\download (2).png" alt="">
+                         </div>
+                     </div>
+                   </div>
+ 
+                   <div class="display" data-active>
+                     <div class="text">
+                         <div class="text_box">
+                             <h1>RENT</h1>
+                             <h1>WHEELS</h1>
+                             <h1 class="space">₦9000/Day</h1>
+                            <a href="vehicles.php"> <button>Book Now</button></a>
+                         </div>
+                     </div>
+ 
+                     <div class="img">
+                         <div class="car_img">
+                             <img src="images\car1.png" alt="">
+                         </div>
+                     </div>
+                   </div>
+ 
+ 
+                 </div>
+            </div>
+             
             </div>
         </div>
 
@@ -150,26 +190,26 @@ include "header.php";
             <h1>MEET THE TEAM</h1>
             <div class="cent">
                 <div class="team_card">
-                    <h4>EFIDI VICTOR</h4>
-                    <p>Dignissim per dis dignissim mi nibh a parturient habitasse suspendisse ut a feugiat morbi neque tortor.Tellus volutpat scelerisque tempor.</p>
+                    <h4>PETER DANIEL</h4>
+                    <p>A student of Babcock University, known for their exceptional programming skills and deep understanding of computer science concepts.</p>
                     <div class="prof">
-
+                    <i class="fa-regular fa-user"></i>
                     </div>
                 </div>
 
                 <div class="team_card">
-                       <h4>EFIDI VICTOR</h4>
-                    <p>Dignissim per dis dignissim mi nibh a parturient habitasse suspendisse ut a feugiat morbi neque tortor.Tellus volutpat scelerisque tempor.</p>
+                       <h4>CHUKWUELUGO. K</h4>
+                    <p>Also a student of Babcock University, recognized for their artistic flair and keen eye for design. Bringing a unique blend of creativity.</p>
                     <div class="prof">
-                        
+                    <i class="fa-regular fa-user"></i>
                     </div>
                     </div>
 
                     <div class="team_card">
-                    <h4>EFIDI VICTOR</h4>
-                    <p>Dignissim per dis dignissim mi nibh a parturient habitasse suspendisse ut a feugiat morbi neque tortor.Tellus volutpat scelerisque tempor.</p>
+                    <h4>OLUWATAYO .P</h4>
+                    <p> Another student of Babcock University, revered for their strategic mindset and problem-solving abilities.They possess a knack for analyzing data and trends</p>
                     <div class="prof">
-                        
+                    <i class="fa-regular fa-user"></i>
                     </div>
                     </div>
             </div>
