@@ -1,0 +1,71 @@
+.sec1{
+    height:500px;
+}
+
+.sec1 .cent{
+    display:flex;
+}
+
+
+
+.some_t{
+    width:700px;
+    height:100%;
+    padding-left:26px;
+    background: #eeeff1;
+}
+
+.img{
+    width:500px;
+    height:100%;
+    background: linear-gradient(to bottom, black, white);
+    position:relative;
+}
+
+#orange{
+    background: linear-gradient(to bottom, #f57800, white);
+}
+
+
+#red{
+    background: linear-gradient(to bottom, #ce0807, white);
+}
+
+
+
+
+.img img{
+    position:absolute;
+    width:650px;
+    height:auto;
+    left:-150px;
+    bottom:40px;
+}
+
+#orange img{
+    bottom:-30px;
+}
+
+#red img{
+    bottom:-60px;
+}
+
+
+.some_t h1, .some_t h4{
+    text-transform: capitalize;
+}
+
+.some_t h1{
+    margin-top:190px;
+    font-size:38px;
+    width:450px;
+    text-align: left;
+}
+
+.some_t h4{
+    margin:26px 0;
+    text-align: left;
+    font-weight:500;
+    width:580px;
+}
+

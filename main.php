@@ -36,10 +36,10 @@ include "header.php";
                   <div class="display">
                     <div class="text">
                         <div class="text_box">
-                            <h1>HYUNDAI</h1>
-                            <h1>VELOSTER</h1>
+                            <h1>SPEEDY</h1>
+                            <h1>TAXI</h1>
                             <h1 class="space">₦2000/hr</h1>
-                            <button>Book Now</button>
+                           <a href="vehicles.php"> <button>Book Now</button></a>
                         </div>
                     </div>
 
@@ -111,7 +111,7 @@ include "header.php";
                     Get the lowest rental car deal and take advantage of our special deals while getting fast & quality service. Get started today!
                     </div>
 
-                    <button>Book Now</button>
+                    <a href="vehicles.php"> <button>Book Now</button></a>
                 </div>
 
                 <div class="fluid_data">

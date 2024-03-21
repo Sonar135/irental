@@ -1,5 +1,6 @@
 .sec1{
     height:920px;
+    animation: fade_in .8s;
 }
 
 .sec1 .cent{

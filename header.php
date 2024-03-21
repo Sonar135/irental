@@ -99,6 +99,10 @@
              <a href="contact.php">  Contact</a>
               </li>
 
+              <li>
+             <a href="services.php"> Services</a>
+              </li>
+
             <?php
              if(isset($_SESSION["id"])){
             echo ' <li class=""> <a href="logout.php"> Logout</a></li>';

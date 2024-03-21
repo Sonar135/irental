@@ -101,7 +101,7 @@ Our goal is to provide a superior customer experience</h1>
 
                     <p>At our core, we're committed to revolutionizing transportation by providing seamless, reliable, and innovative solutions that enhance the travel experience for every customer, ensuring convenience and satisfaction..</p>
 
-                    <button>GET STARTED</button>
+                  <a href="vehicles.php"> <button>GET STARTED</button></a> 
                 </div>
 
                 <div class="goal_img">
@@ -125,7 +125,7 @@ Our goal is to provide a superior customer experience</h1>
 With an extensive fleet, we boast high availability rates, ensuring prompt and convenient access to our transportation services. Our experienced drivers guarantee safe, reliable journeys
                     </div>
 
-                    <button>Book Now</button>
+                    <a href="vehicles.php"> <button>Book Now</button></a>
                 </div>
 
                 <div class="fluid_data">
